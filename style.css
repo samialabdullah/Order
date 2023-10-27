@@ -1,0 +1,89 @@
+.shoppingcart-product .title {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+    .shoppingcart-product .product-part {
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+        .shoppingcart-product .product-part .product-image {
+        height: 100px;
+        width: 100px;
+        background-color:#b50808;
+        }
+            .shoppingcart-product .product-part .product-image img {
+            height: 100px;
+            width: 100px;
+            }
+
+        .shoppingcart-product .product-part .product-info .product-info-name {
+        font-weight: 500;
+        font-size: 1.1rem;
+        }
+
+
+            
+            .shoppingcart-product .product-part .product-info .product-info-price span {
+            color:#b50808;
+            }
+
+        .shoppingcart-product .product-part .product-price .product-info-quantity {
+        display: grid;
+        grid-template-columns: auto;
+        }
+
+            .shoppingcart-product .product-part .product-price .product-info-quantity div {
+            padding-bottom: 10px;
+            }
+
+
+
+
+        .promocode-applied .promocode {
+        display: flex;
+        margin: 20px;
+        padding: 5px;
+        }
+
+            .promocode-applied .promocode i {
+            padding-left: 5px;
+            color: green;
+            }
+
+        .subtotalanddis  {
+        margin: 20px;
+        padding: 5px;
+        }
+
+            .subtotalanddis .subtotal {
+            display: flex;
+            justify-content: space-between;
+            }
+
+            .subtotalanddis .discount {
+            display: flex;
+            justify-content: space-between;
+            }
+
+            .subtotalanddis .delivery {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 10px;
+            }
+
+            .subtotalanddis .delivery i {
+            color: green;
+            font-size: 18px;
+            font-style: normal;
+            }
+
+            .subtotalanddis .total {
+            display: flex;
+            justify-content: space-between;
+            }
